@@ -1,9 +1,13 @@
 {
   "pages": 14,
   "embedded_images": 6,
-  "unique_clickable_urls": 21,
+  "unique_clickable_urls": 20,
   "student_identity_in_pdf": true,
+  "scene_photo_source": "provided 20261112101048.png",
+  "scene_photo_sha256": "674147eafc02b0c02be6cc97e728818d0aa9ca826cb823170b0b15ac315ef92f",
+  "docx_scene_image_matches_source": true,
+  "external_scene_reference_removed": true,
+  "sha256": "ca0a564c2aa8f7f7870bd8d4d72c0315facad32a8412f135c21069ef901a28d3",
   "full_body_coverage_passed": true,
-  "all_pages_visually_checked": true,
-  "sha256": "617c98b778bcd82cf08c9ff4a031259194d504872cece6d35855aad7add99a2b"
+  "all_pages_visually_checked": true
 }

@@ -39,6 +39,4 @@ REAPER 7.85 评估版用于工程检查与最终混音原生导出。FFmpeg、Py
 
 ## 场景参考图片
 
-`Images/ChinjuForest_Reference.png` 来自 HoYoLAB 用户 Reinfactor 发布的游戏截图，画面署名 Rexorcion，原有署名与标识保留。原帖：https://www.hoyolab.com/article/20156776 。图片用于课程场景分析，不属于 CC0 音频素材，也不是本人拍摄，相关游戏画面与截图权利归相应权利人。
-
-原图：https://upload-os-bbs.hoyolab.com/upload/2023/07/19/244441322/a6db7487d09ae9a394215511e5579f49_5583228083807366687.png
+`Images/ChinjuForest_Reference.png` 为本人在《原神》中拍摄的镇守之森实机截图，选自本次提供的“素材图”文件夹，原始文件名为 `20261112101048.png`。图片按原始内容收录，用于课程场景分析，游戏画面相关权利归米哈游。
