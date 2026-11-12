@@ -1,0 +1,25 @@
+.tools/
+.backup*
+.cache*/
+*.akd
+*.prof
+*.validationcache
+*.wsettings
+*.reapeaks
+*.rpp-bak
+__pycache__/
+Final/ChinjuForest_Ambience/GeneratedSoundBanks/
+Final/ChinjuForest_Ambience/.p4ignore
+Final/Sources/Birds/
+Final/Sources/Waterfall/
+Final/Sources/forest_birds.7z
+Final/Sources/AI/wind_take01.wav
+Final/Preview/Wind_First_15s.wav
+Final/Preview/Wind_Revised_15s.wav
+Final/Preview/ChinjuForest_REAPER_90s.wav
+Final/Preview/ChinjuForest_Numpy_90s.wav
+*.wpbu
+*.bak
+# Keep editable identity-bearing drafts and mail text local.
+Final/Report/*.docx
+Final/Report/*.txt

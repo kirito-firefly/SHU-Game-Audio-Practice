@@ -1,0 +1,153 @@
+{
+  "asset_count": 12,
+  "passed": true,
+  "assets": [
+    {
+      "file": "AMB_Insects_Loop.wav",
+      "sample_rate": 48000,
+      "channels": 2,
+      "subtype": "PCM_24",
+      "duration_seconds": 60.0,
+      "peak_dbfs": -15.290349616813042,
+      "rms_dbfs": -30.999999980158055,
+      "clipped_samples": 0,
+      "sha256": "f60ea300e090a3ce9bf92bbadcbd41d599c207eff027ececed432e2c4e3d9246",
+      "passed": true,
+      "seam_step_dbfs": -36.397586801725666
+    },
+    {
+      "file": "AMB_Waterfall_Loop.wav",
+      "sample_rate": 48000,
+      "channels": 2,
+      "subtype": "PCM_24",
+      "duration_seconds": 60.0,
+      "peak_dbfs": -9.8516810985248,
+      "rms_dbfs": -25.99999999805124,
+      "clipped_samples": 0,
+      "sha256": "0da989e868e46746a9ae44e318cb1dde89e89e8da73c7ec82992902285dd8970",
+      "passed": true,
+      "seam_step_dbfs": -47.10413125999824
+    },
+    {
+      "file": "AMB_WindLeaves_Loop.wav",
+      "sample_rate": 48000,
+      "channels": 2,
+      "subtype": "PCM_24",
+      "duration_seconds": 60.0,
+      "peak_dbfs": -11.030384451378394,
+      "rms_dbfs": -32.99999999301519,
+      "clipped_samples": 0,
+      "sha256": "c67ca3a553af8d52f9b0a3a8d9a7c5e5a35e8ee251774d4e821ad974b92abebc",
+      "passed": true,
+      "seam_step_dbfs": -51.72541151883789
+    },
+    {
+      "file": "SFX_Bell_01.wav",
+      "sample_rate": 48000,
+      "channels": 2,
+      "subtype": "PCM_24",
+      "duration_seconds": 10.0,
+      "peak_dbfs": -8.999998352441999,
+      "rms_dbfs": -33.37507797730731,
+      "clipped_samples": 0,
+      "sha256": "c712468d17919e5ea5a55238c0ca65451a2863eb775ac8132a8a453c7fe87e72",
+      "passed": true
+    },
+    {
+      "file": "SFX_Bell_02.wav",
+      "sample_rate": 48000,
+      "channels": 2,
+      "subtype": "PCM_24",
+      "duration_seconds": 10.0,
+      "peak_dbfs": -9.000001270704788,
+      "rms_dbfs": -34.43588944647912,
+      "clipped_samples": 0,
+      "sha256": "e68126c44b055751037412a202dbae77cee2d6600501ab9e58dd5c3deeb14942",
+      "passed": true
+    },
+    {
+      "file": "SFX_Bell_03.wav",
+      "sample_rate": 48000,
+      "channels": 2,
+      "subtype": "PCM_24",
+      "duration_seconds": 10.0,
+      "peak_dbfs": -8.999998352441999,
+      "rms_dbfs": -33.98214335028551,
+      "clipped_samples": 0,
+      "sha256": "3ff04bf1fc717405cf8cbea6e40b9876a458ff3a2ba71938b86b2da0227a2f8c",
+      "passed": true
+    },
+    {
+      "file": "SFX_Bird_01.wav",
+      "sample_rate": 48000,
+      "channels": 2,
+      "subtype": "PCM_24",
+      "duration_seconds": 4.0,
+      "peak_dbfs": -10.000002514143702,
+      "rms_dbfs": -30.76533842203095,
+      "clipped_samples": 0,
+      "sha256": "dd862b0e9d02bd084947d8102f0d8b2efe6a8b0c608d379d3be43bf3ba56ff19",
+      "passed": true
+    },
+    {
+      "file": "SFX_Bird_02.wav",
+      "sample_rate": 48000,
+      "channels": 2,
+      "subtype": "PCM_24",
+      "duration_seconds": 4.0,
+      "peak_dbfs": -9.9999992397986,
+      "rms_dbfs": -33.04203601771191,
+      "clipped_samples": 0,
+      "sha256": "8fcb3447d8ac33039e81f375b12d3da6aaf26cb037c1769efbff214c95401827",
+      "passed": true
+    },
+    {
+      "file": "SFX_Bird_03.wav",
+      "sample_rate": 48000,
+      "channels": 2,
+      "subtype": "PCM_24",
+      "duration_seconds": 4.0,
+      "peak_dbfs": -10.000002514143702,
+      "rms_dbfs": -30.41381331609532,
+      "clipped_samples": 0,
+      "sha256": "c0f634a43a6cd0f014cd30b6e0e4569afbc2b30f740d9253f91147f31b50ebf2",
+      "passed": true
+    },
+    {
+      "file": "SFX_Rustle_01.wav",
+      "sample_rate": 48000,
+      "channels": 2,
+      "subtype": "PCM_24",
+      "duration_seconds": 4.0,
+      "peak_dbfs": -9.000001270704788,
+      "rms_dbfs": -33.500341776344555,
+      "clipped_samples": 0,
+      "sha256": "a3b49d37d520cd2a68ada0db22220f8849bc566275ccb1655b4fe3a57c9904eb",
+      "passed": true
+    },
+    {
+      "file": "SFX_Rustle_02.wav",
+      "sample_rate": 48000,
+      "channels": 2,
+      "subtype": "PCM_24",
+      "duration_seconds": 4.0,
+      "peak_dbfs": -8.999998352441999,
+      "rms_dbfs": -33.070189876294414,
+      "clipped_samples": 0,
+      "sha256": "01c2f04d6d7b602eee3c244392fead77f66e400b9491191a566c0836b55b710e",
+      "passed": true
+    },
+    {
+      "file": "SFX_Rustle_03.wav",
+      "sample_rate": 48000,
+      "channels": 2,
+      "subtype": "PCM_24",
+      "duration_seconds": 4.0,
+      "peak_dbfs": -9.000001270704788,
+      "rms_dbfs": -32.88764478416249,
+      "clipped_samples": 0,
+      "sha256": "88b85f62d2a31e388f25307f463e5264a50abe22f8da8a5ad9e2e5bdb1421583",
+      "passed": true
+    }
+  ]
+}

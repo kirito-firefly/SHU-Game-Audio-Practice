@@ -1,0 +1,67 @@
+{
+  "log": [],
+  "files": [
+    "D:\\桌面文件夹\\素材库\\codex小项目\\实践2\\SHU-Game-Audio-Practice\\Final\\ChinjuForest_Ambience\\Originals\\SFX\\AMB_WindLeaves_Loop.wav",
+    "D:\\桌面文件夹\\素材库\\codex小项目\\实践2\\SHU-Game-Audio-Practice\\Final\\ChinjuForest_Ambience\\Originals\\SFX\\AMB_Waterfall_Loop.wav",
+    "D:\\桌面文件夹\\素材库\\codex小项目\\实践2\\SHU-Game-Audio-Practice\\Final\\ChinjuForest_Ambience\\Originals\\SFX\\AMB_Insects_Loop.wav",
+    "D:\\桌面文件夹\\素材库\\codex小项目\\实践2\\SHU-Game-Audio-Practice\\Final\\ChinjuForest_Ambience\\Originals\\SFX\\SFX_Bird_01.wav",
+    "D:\\桌面文件夹\\素材库\\codex小项目\\实践2\\SHU-Game-Audio-Practice\\Final\\ChinjuForest_Ambience\\Originals\\SFX\\SFX_Bird_02.wav",
+    "D:\\桌面文件夹\\素材库\\codex小项目\\实践2\\SHU-Game-Audio-Practice\\Final\\ChinjuForest_Ambience\\Originals\\SFX\\SFX_Bird_03.wav",
+    "D:\\桌面文件夹\\素材库\\codex小项目\\实践2\\SHU-Game-Audio-Practice\\Final\\ChinjuForest_Ambience\\Originals\\SFX\\SFX_Rustle_01.wav",
+    "D:\\桌面文件夹\\素材库\\codex小项目\\实践2\\SHU-Game-Audio-Practice\\Final\\ChinjuForest_Ambience\\Originals\\SFX\\SFX_Rustle_02.wav",
+    "D:\\桌面文件夹\\素材库\\codex小项目\\实践2\\SHU-Game-Audio-Practice\\Final\\ChinjuForest_Ambience\\Originals\\SFX\\SFX_Rustle_03.wav",
+    "D:\\桌面文件夹\\素材库\\codex小项目\\实践2\\SHU-Game-Audio-Practice\\Final\\ChinjuForest_Ambience\\Originals\\SFX\\SFX_Bell_01.wav",
+    "D:\\桌面文件夹\\素材库\\codex小项目\\实践2\\SHU-Game-Audio-Practice\\Final\\ChinjuForest_Ambience\\Originals\\SFX\\SFX_Bell_02.wav",
+    "D:\\桌面文件夹\\素材库\\codex小项目\\实践2\\SHU-Game-Audio-Practice\\Final\\ChinjuForest_Ambience\\Originals\\SFX\\SFX_Bell_03.wav"
+  ],
+  "objects": [
+    {
+      "id": "{55D54F82-EE4C-4FD3-B49B-FE7DBD441096}",
+      "name": "Source"
+    },
+    {
+      "id": "{7133689B-B04C-4A92-AF96-7CBB2CFEF7B5}",
+      "name": "Source"
+    },
+    {
+      "id": "{4B276C65-BFA9-4AAD-9B7F-3EFC01174798}",
+      "name": "Source"
+    },
+    {
+      "id": "{1F3EAB03-03D5-4DD4-ABA6-0EDF274C39F5}",
+      "name": "Source"
+    },
+    {
+      "id": "{E6AD8618-B694-4DB7-9C0A-9A6510954B17}",
+      "name": "Source"
+    },
+    {
+      "id": "{85BA54A3-33A3-47A8-B61C-C88BDBFF12BD}",
+      "name": "Source"
+    },
+    {
+      "id": "{67636EA9-18A5-4E3D-865F-A23F70175C9C}",
+      "name": "Source"
+    },
+    {
+      "id": "{699CF190-3519-4900-8DEA-316EB12FDCDB}",
+      "name": "Source"
+    },
+    {
+      "id": "{8B22ACE4-39C5-44F0-BF4B-0060D5612F2D}",
+      "name": "Source"
+    },
+    {
+      "id": "{16EDFD59-57B4-4421-BE83-6260505B34EF}",
+      "name": "Source"
+    },
+    {
+      "id": "{62FD9C09-3B12-4202-AB08-70E28C3864BA}",
+      "name": "Source"
+    },
+    {
+      "id": "{E030B31F-0B32-4C4A-8E96-178660AFA358}",
+      "name": "Source"
+    }
+  ]
+}

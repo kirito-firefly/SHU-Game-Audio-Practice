@@ -1,0 +1,12 @@
+{
+  "renderer": "REAPER 7.85 native offline renderproject",
+  "duration_seconds": 90.0,
+  "sample_rate": 48000,
+  "channels": 2,
+  "subtype": "PCM_24",
+  "peak_dbfs": -9.77318968641188,
+  "rms_dbfs": -28.805040959287243,
+  "clipped_samples": 0,
+  "sha256": "d208a4e3cc7292ea8c744fab1791bbb5ddf549a088a6dc0e0540dda415409eb1",
+  "listening_feedback": "2026-11-12 user accepted the mix direction and specified 哀怨轻柔"
+}

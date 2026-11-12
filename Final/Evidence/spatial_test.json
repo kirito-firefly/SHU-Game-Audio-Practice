@@ -1,0 +1,1438 @@
+[
+  {
+    "layer": "Waterfall",
+    "distance_m": 0,
+    "voices": [
+      {
+        "objectName": "AMB_Waterfall_Loop",
+        "gameObjectID": 1001,
+        "isVirtual": false,
+        "pipelineID": 93
+      }
+    ],
+    "contributions": [
+      {
+        "return": {
+          "LPF": 0.0,
+          "DSF": 0.0,
+          "HPF": 0.0,
+          "objects": [
+            {
+              "name": "Main Audio Bus",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            },
+            {
+              "name": "ChinjuForest",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            },
+            {
+              "name": "Waterfall",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [
+                {
+                  "value": -7.0,
+                  "propertyType": "Volume",
+                  "reason": "SoundBankValue",
+                  "driverValue": -7.0,
+                  "driver": "SoundBankValue"
+                }
+              ],
+              "volume": -7.0
+            },
+            {
+              "name": "AMB_Waterfall_Loop",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            }
+          ],
+          "volume": -7.0
+        }
+      }
+    ]
+  },
+  {
+    "layer": "Waterfall",
+    "distance_m": 16.0,
+    "voices": [
+      {
+        "objectName": "AMB_Waterfall_Loop",
+        "gameObjectID": 1001,
+        "isVirtual": false,
+        "pipelineID": 95
+      }
+    ],
+    "contributions": [
+      {
+        "return": {
+          "LPF": 0.0,
+          "DSF": 0.0,
+          "HPF": 0.0,
+          "objects": [
+            {
+              "name": "Main Audio Bus",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            },
+            {
+              "name": "ChinjuForest",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            },
+            {
+              "name": "Waterfall",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [
+                {
+                  "name": "ATT_Waterfall",
+                  "LPF": 0.0,
+                  "DSF": 0.0,
+                  "HPF": 0.0,
+                  "children": [
+                    {
+                      "name": "Chinju_Listener",
+                      "LPF": 0.0,
+                      "DSF": 0.0,
+                      "HPF": 0.0,
+                      "children": [],
+                      "index": 0,
+                      "parameters": [
+                        {
+                          "value": -3.00071120262146,
+                          "propertyType": "OutputBusVolume",
+                          "reason": "AttenuationDistance",
+                          "driverValue": 16.0,
+                          "driver": "AttenuationDistance"
+                        }
+                      ],
+                      "volume": -3.00071120262146
+                    }
+                  ],
+                  "parameters": [],
+                  "volume": -3.00071120262146
+                }
+              ],
+              "parameters": [
+                {
+                  "value": -7.0,
+                  "propertyType": "Volume",
+                  "reason": "SoundBankValue",
+                  "driverValue": -7.0,
+                  "driver": "SoundBankValue"
+                }
+              ],
+              "volume": -10.000711441040039
+            },
+            {
+              "name": "AMB_Waterfall_Loop",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            }
+          ],
+          "volume": -10.000711441040039
+        }
+      }
+    ]
+  },
+  {
+    "layer": "Waterfall",
+    "distance_m": 80.0,
+    "voices": [
+      {
+        "objectName": "AMB_Waterfall_Loop",
+        "gameObjectID": 1001,
+        "isVirtual": false,
+        "pipelineID": 97
+      }
+    ],
+    "contributions": [
+      {
+        "return": {
+          "LPF": 0.0,
+          "DSF": 0.0,
+          "HPF": 0.0,
+          "objects": [
+            {
+              "name": "Main Audio Bus",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            },
+            {
+              "name": "ChinjuForest",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            },
+            {
+              "name": "Waterfall",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [
+                {
+                  "name": "ATT_Waterfall",
+                  "LPF": 0.0,
+                  "DSF": 0.0,
+                  "HPF": 0.0,
+                  "children": [
+                    {
+                      "name": "Chinju_Listener",
+                      "LPF": 0.0,
+                      "DSF": 0.0,
+                      "HPF": 0.0,
+                      "children": [],
+                      "index": 0,
+                      "parameters": [
+                        {
+                          "value": -18.00025749206543,
+                          "propertyType": "OutputBusVolume",
+                          "reason": "AttenuationDistance",
+                          "driverValue": 80.0,
+                          "driver": "AttenuationDistance"
+                        }
+                      ],
+                      "volume": -18.00025749206543
+                    }
+                  ],
+                  "parameters": [],
+                  "volume": -18.00025749206543
+                }
+              ],
+              "parameters": [
+                {
+                  "value": -7.0,
+                  "propertyType": "Volume",
+                  "reason": "SoundBankValue",
+                  "driverValue": -7.0,
+                  "driver": "SoundBankValue"
+                }
+              ],
+              "volume": -25.00025749206543
+            },
+            {
+              "name": "AMB_Waterfall_Loop",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            }
+          ],
+          "volume": -25.00025749206543
+        }
+      }
+    ]
+  },
+  {
+    "layer": "Waterfall",
+    "distance_m": 160,
+    "voices": [
+      {
+        "objectName": "AMB_Waterfall_Loop",
+        "gameObjectID": 1001,
+        "isVirtual": false,
+        "pipelineID": 99
+      }
+    ],
+    "contributions": [
+      {
+        "return": {
+          "LPF": 0.0,
+          "DSF": 0.0,
+          "HPF": 0.0,
+          "objects": [
+            {
+              "name": "Main Audio Bus",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            },
+            {
+              "name": "ChinjuForest",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            },
+            {
+              "name": "Waterfall",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [
+                {
+                  "name": "ATT_Waterfall",
+                  "LPF": 0.0,
+                  "DSF": 0.0,
+                  "HPF": 0.0,
+                  "children": [
+                    {
+                      "name": "Chinju_Listener",
+                      "LPF": 0.0,
+                      "DSF": 0.0,
+                      "HPF": 0.0,
+                      "children": [],
+                      "index": 0,
+                      "parameters": [
+                        {
+                          "value": -60.0001106262207,
+                          "propertyType": "OutputBusVolume",
+                          "reason": "AttenuationDistance",
+                          "driverValue": 160.0,
+                          "driver": "AttenuationDistance"
+                        }
+                      ],
+                      "volume": -60.0001106262207
+                    }
+                  ],
+                  "parameters": [],
+                  "volume": -60.0001106262207
+                }
+              ],
+              "parameters": [
+                {
+                  "value": -7.0,
+                  "propertyType": "Volume",
+                  "reason": "SoundBankValue",
+                  "driverValue": -7.0,
+                  "driver": "SoundBankValue"
+                }
+              ],
+              "volume": -67.00010681152344
+            },
+            {
+              "name": "AMB_Waterfall_Loop",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            }
+          ],
+          "volume": -67.00010681152344
+        }
+      }
+    ]
+  },
+  {
+    "layer": "Birds",
+    "distance_m": 0,
+    "voices": [
+      {
+        "objectName": "SFX_Bird_01",
+        "gameObjectID": 1001,
+        "isVirtual": false,
+        "pipelineID": 101
+      }
+    ],
+    "contributions": [
+      {
+        "return": {
+          "LPF": 0.0,
+          "DSF": 0.0,
+          "HPF": 0.0,
+          "objects": [
+            {
+              "name": "Main Audio Bus",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            },
+            {
+              "name": "ChinjuForest",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            },
+            {
+              "name": "Birds",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [
+                {
+                  "value": -12.0,
+                  "propertyType": "Volume",
+                  "reason": "SoundBankValue",
+                  "driverValue": -12.0,
+                  "driver": "SoundBankValue"
+                }
+              ],
+              "volume": -12.0
+            },
+            {
+              "name": "SFX_Bird_01",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            }
+          ],
+          "volume": -12.0
+        }
+      }
+    ]
+  },
+  {
+    "layer": "Birds",
+    "distance_m": 6.0,
+    "voices": [
+      {
+        "objectName": "SFX_Bird_01",
+        "gameObjectID": 1001,
+        "isVirtual": false,
+        "pipelineID": 103
+      }
+    ],
+    "contributions": [
+      {
+        "return": {
+          "LPF": 0.0,
+          "DSF": 0.0,
+          "HPF": 0.0,
+          "objects": [
+            {
+              "name": "Main Audio Bus",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            },
+            {
+              "name": "ChinjuForest",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            },
+            {
+              "name": "Birds",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [
+                {
+                  "name": "ATT_Birds",
+                  "LPF": 0.0,
+                  "DSF": 0.0,
+                  "HPF": 0.0,
+                  "children": [
+                    {
+                      "name": "Chinju_Listener",
+                      "LPF": 0.0,
+                      "DSF": 0.0,
+                      "HPF": 0.0,
+                      "children": [],
+                      "index": 0,
+                      "parameters": [
+                        {
+                          "value": -3.00071120262146,
+                          "propertyType": "OutputBusVolume",
+                          "reason": "AttenuationDistance",
+                          "driverValue": 6.0,
+                          "driver": "AttenuationDistance"
+                        }
+                      ],
+                      "volume": -3.00071120262146
+                    }
+                  ],
+                  "parameters": [],
+                  "volume": -3.00071120262146
+                }
+              ],
+              "parameters": [
+                {
+                  "value": -12.0,
+                  "propertyType": "Volume",
+                  "reason": "SoundBankValue",
+                  "driverValue": -12.0,
+                  "driver": "SoundBankValue"
+                }
+              ],
+              "volume": -15.000711441040039
+            },
+            {
+              "name": "SFX_Bird_01",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            }
+          ],
+          "volume": -15.000711441040039
+        }
+      }
+    ]
+  },
+  {
+    "layer": "Birds",
+    "distance_m": 30.0,
+    "voices": [
+      {
+        "objectName": "SFX_Bird_01",
+        "gameObjectID": 1001,
+        "isVirtual": false,
+        "pipelineID": 105
+      }
+    ],
+    "contributions": [
+      {
+        "return": {
+          "LPF": 0.0,
+          "DSF": 0.0,
+          "HPF": 0.0,
+          "objects": [
+            {
+              "name": "Main Audio Bus",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            },
+            {
+              "name": "ChinjuForest",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            },
+            {
+              "name": "Birds",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [
+                {
+                  "name": "ATT_Birds",
+                  "LPF": 0.0,
+                  "DSF": 0.0,
+                  "HPF": 0.0,
+                  "children": [
+                    {
+                      "name": "Chinju_Listener",
+                      "LPF": 0.0,
+                      "DSF": 0.0,
+                      "HPF": 0.0,
+                      "children": [],
+                      "index": 0,
+                      "parameters": [
+                        {
+                          "value": -18.00025749206543,
+                          "propertyType": "OutputBusVolume",
+                          "reason": "AttenuationDistance",
+                          "driverValue": 30.0,
+                          "driver": "AttenuationDistance"
+                        }
+                      ],
+                      "volume": -18.00025749206543
+                    }
+                  ],
+                  "parameters": [],
+                  "volume": -18.00025749206543
+                }
+              ],
+              "parameters": [
+                {
+                  "value": -12.0,
+                  "propertyType": "Volume",
+                  "reason": "SoundBankValue",
+                  "driverValue": -12.0,
+                  "driver": "SoundBankValue"
+                }
+              ],
+              "volume": -30.00025749206543
+            },
+            {
+              "name": "SFX_Bird_01",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            }
+          ],
+          "volume": -30.00025749206543
+        }
+      }
+    ]
+  },
+  {
+    "layer": "Birds",
+    "distance_m": 60,
+    "voices": [
+      {
+        "objectName": "SFX_Bird_01",
+        "gameObjectID": 1001,
+        "isVirtual": false,
+        "pipelineID": 107
+      }
+    ],
+    "contributions": [
+      {
+        "return": {
+          "LPF": 0.0,
+          "DSF": 0.0,
+          "HPF": 0.0,
+          "objects": [
+            {
+              "name": "Main Audio Bus",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            },
+            {
+              "name": "ChinjuForest",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            },
+            {
+              "name": "Birds",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [
+                {
+                  "name": "ATT_Birds",
+                  "LPF": 0.0,
+                  "DSF": 0.0,
+                  "HPF": 0.0,
+                  "children": [
+                    {
+                      "name": "Chinju_Listener",
+                      "LPF": 0.0,
+                      "DSF": 0.0,
+                      "HPF": 0.0,
+                      "children": [],
+                      "index": 0,
+                      "parameters": [
+                        {
+                          "value": -60.0001106262207,
+                          "propertyType": "OutputBusVolume",
+                          "reason": "AttenuationDistance",
+                          "driverValue": 60.0,
+                          "driver": "AttenuationDistance"
+                        }
+                      ],
+                      "volume": -60.0001106262207
+                    }
+                  ],
+                  "parameters": [],
+                  "volume": -60.0001106262207
+                }
+              ],
+              "parameters": [
+                {
+                  "value": -12.0,
+                  "propertyType": "Volume",
+                  "reason": "SoundBankValue",
+                  "driverValue": -12.0,
+                  "driver": "SoundBankValue"
+                }
+              ],
+              "volume": -72.00010681152344
+            },
+            {
+              "name": "SFX_Bird_01",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            }
+          ],
+          "volume": -72.00010681152344
+        }
+      }
+    ]
+  },
+  {
+    "layer": "Rustles",
+    "distance_m": 0,
+    "voices": [
+      {
+        "objectName": "SFX_Rustle_01",
+        "gameObjectID": 1001,
+        "isVirtual": false,
+        "pipelineID": 109
+      }
+    ],
+    "contributions": [
+      {
+        "return": {
+          "LPF": 0.0,
+          "DSF": 0.0,
+          "HPF": 0.0,
+          "objects": [
+            {
+              "name": "Main Audio Bus",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            },
+            {
+              "name": "ChinjuForest",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            },
+            {
+              "name": "Rustles",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [
+                {
+                  "value": -9.0,
+                  "propertyType": "Volume",
+                  "reason": "SoundBankValue",
+                  "driverValue": -9.0,
+                  "driver": "SoundBankValue"
+                }
+              ],
+              "volume": -9.0
+            },
+            {
+              "name": "SFX_Rustle_01",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            }
+          ],
+          "volume": -9.0
+        }
+      }
+    ]
+  },
+  {
+    "layer": "Rustles",
+    "distance_m": 1.5,
+    "voices": [
+      {
+        "objectName": "SFX_Rustle_01",
+        "gameObjectID": 1001,
+        "isVirtual": false,
+        "pipelineID": 111
+      }
+    ],
+    "contributions": [
+      {
+        "return": {
+          "LPF": 0.0,
+          "DSF": 0.0,
+          "HPF": 0.0,
+          "objects": [
+            {
+              "name": "Main Audio Bus",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            },
+            {
+              "name": "ChinjuForest",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            },
+            {
+              "name": "Rustles",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [
+                {
+                  "name": "ATT_Rustles",
+                  "LPF": 0.0,
+                  "DSF": 0.0,
+                  "HPF": 0.0,
+                  "children": [
+                    {
+                      "name": "Chinju_Listener",
+                      "LPF": 0.0,
+                      "DSF": 0.0,
+                      "HPF": 0.0,
+                      "children": [],
+                      "index": 0,
+                      "parameters": [
+                        {
+                          "value": -3.00071120262146,
+                          "propertyType": "OutputBusVolume",
+                          "reason": "AttenuationDistance",
+                          "driverValue": 1.5,
+                          "driver": "AttenuationDistance"
+                        }
+                      ],
+                      "volume": -3.00071120262146
+                    }
+                  ],
+                  "parameters": [],
+                  "volume": -3.00071120262146
+                }
+              ],
+              "parameters": [
+                {
+                  "value": -9.0,
+                  "propertyType": "Volume",
+                  "reason": "SoundBankValue",
+                  "driverValue": -9.0,
+                  "driver": "SoundBankValue"
+                }
+              ],
+              "volume": -12.000711441040039
+            },
+            {
+              "name": "SFX_Rustle_01",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            }
+          ],
+          "volume": -12.000711441040039
+        }
+      }
+    ]
+  },
+  {
+    "layer": "Rustles",
+    "distance_m": 7.5,
+    "voices": [
+      {
+        "objectName": "SFX_Rustle_01",
+        "gameObjectID": 1001,
+        "isVirtual": false,
+        "pipelineID": 113
+      }
+    ],
+    "contributions": [
+      {
+        "return": {
+          "LPF": 0.0,
+          "DSF": 0.0,
+          "HPF": 0.0,
+          "objects": [
+            {
+              "name": "Main Audio Bus",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            },
+            {
+              "name": "ChinjuForest",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            },
+            {
+              "name": "Rustles",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [
+                {
+                  "name": "ATT_Rustles",
+                  "LPF": 0.0,
+                  "DSF": 0.0,
+                  "HPF": 0.0,
+                  "children": [
+                    {
+                      "name": "Chinju_Listener",
+                      "LPF": 0.0,
+                      "DSF": 0.0,
+                      "HPF": 0.0,
+                      "children": [],
+                      "index": 0,
+                      "parameters": [
+                        {
+                          "value": -18.00025749206543,
+                          "propertyType": "OutputBusVolume",
+                          "reason": "AttenuationDistance",
+                          "driverValue": 7.5,
+                          "driver": "AttenuationDistance"
+                        }
+                      ],
+                      "volume": -18.00025749206543
+                    }
+                  ],
+                  "parameters": [],
+                  "volume": -18.00025749206543
+                }
+              ],
+              "parameters": [
+                {
+                  "value": -9.0,
+                  "propertyType": "Volume",
+                  "reason": "SoundBankValue",
+                  "driverValue": -9.0,
+                  "driver": "SoundBankValue"
+                }
+              ],
+              "volume": -27.00025749206543
+            },
+            {
+              "name": "SFX_Rustle_01",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            }
+          ],
+          "volume": -27.00025749206543
+        }
+      }
+    ]
+  },
+  {
+    "layer": "Rustles",
+    "distance_m": 15,
+    "voices": [
+      {
+        "objectName": "SFX_Rustle_01",
+        "gameObjectID": 1001,
+        "isVirtual": false,
+        "pipelineID": 115
+      }
+    ],
+    "contributions": [
+      {
+        "return": {
+          "LPF": 0.0,
+          "DSF": 0.0,
+          "HPF": 0.0,
+          "objects": [
+            {
+              "name": "Main Audio Bus",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            },
+            {
+              "name": "ChinjuForest",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            },
+            {
+              "name": "Rustles",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [
+                {
+                  "name": "ATT_Rustles",
+                  "LPF": 0.0,
+                  "DSF": 0.0,
+                  "HPF": 0.0,
+                  "children": [
+                    {
+                      "name": "Chinju_Listener",
+                      "LPF": 0.0,
+                      "DSF": 0.0,
+                      "HPF": 0.0,
+                      "children": [],
+                      "index": 0,
+                      "parameters": [
+                        {
+                          "value": -60.0001106262207,
+                          "propertyType": "OutputBusVolume",
+                          "reason": "AttenuationDistance",
+                          "driverValue": 15.0,
+                          "driver": "AttenuationDistance"
+                        }
+                      ],
+                      "volume": -60.0001106262207
+                    }
+                  ],
+                  "parameters": [],
+                  "volume": -60.0001106262207
+                }
+              ],
+              "parameters": [
+                {
+                  "value": -9.0,
+                  "propertyType": "Volume",
+                  "reason": "SoundBankValue",
+                  "driverValue": -9.0,
+                  "driver": "SoundBankValue"
+                }
+              ],
+              "volume": -69.00010681152344
+            },
+            {
+              "name": "SFX_Rustle_01",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            }
+          ],
+          "volume": -69.00010681152344
+        }
+      }
+    ]
+  },
+  {
+    "layer": "Bells",
+    "distance_m": 0,
+    "voices": [
+      {
+        "objectName": "SFX_Bell_01",
+        "gameObjectID": 1001,
+        "isVirtual": false,
+        "pipelineID": 117
+      }
+    ],
+    "contributions": [
+      {
+        "return": {
+          "LPF": 0.0,
+          "DSF": 0.0,
+          "HPF": 0.0,
+          "objects": [
+            {
+              "name": "Main Audio Bus",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            },
+            {
+              "name": "ChinjuForest",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            },
+            {
+              "name": "Bells",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [
+                {
+                  "value": -10.0,
+                  "propertyType": "Volume",
+                  "reason": "SoundBankValue",
+                  "driverValue": -10.0,
+                  "driver": "SoundBankValue"
+                }
+              ],
+              "volume": -10.0
+            },
+            {
+              "name": "SFX_Bell_01",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            }
+          ],
+          "volume": -10.0
+        }
+      }
+    ]
+  },
+  {
+    "layer": "Bells",
+    "distance_m": 12.0,
+    "voices": [
+      {
+        "objectName": "SFX_Bell_01",
+        "gameObjectID": 1001,
+        "isVirtual": false,
+        "pipelineID": 119
+      }
+    ],
+    "contributions": [
+      {
+        "return": {
+          "LPF": 0.0,
+          "DSF": 0.0,
+          "HPF": 0.0,
+          "objects": [
+            {
+              "name": "Main Audio Bus",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            },
+            {
+              "name": "ChinjuForest",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            },
+            {
+              "name": "Bells",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [
+                {
+                  "name": "ATT_Bells",
+                  "LPF": 0.0,
+                  "DSF": 0.0,
+                  "HPF": 0.0,
+                  "children": [
+                    {
+                      "name": "Chinju_Listener",
+                      "LPF": 0.0,
+                      "DSF": 0.0,
+                      "HPF": 0.0,
+                      "children": [],
+                      "index": 0,
+                      "parameters": [
+                        {
+                          "value": -3.00071120262146,
+                          "propertyType": "OutputBusVolume",
+                          "reason": "AttenuationDistance",
+                          "driverValue": 12.0,
+                          "driver": "AttenuationDistance"
+                        }
+                      ],
+                      "volume": -3.00071120262146
+                    }
+                  ],
+                  "parameters": [],
+                  "volume": -3.00071120262146
+                }
+              ],
+              "parameters": [
+                {
+                  "value": -10.0,
+                  "propertyType": "Volume",
+                  "reason": "SoundBankValue",
+                  "driverValue": -10.0,
+                  "driver": "SoundBankValue"
+                }
+              ],
+              "volume": -13.000711441040039
+            },
+            {
+              "name": "SFX_Bell_01",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            }
+          ],
+          "volume": -13.000711441040039
+        }
+      }
+    ]
+  },
+  {
+    "layer": "Bells",
+    "distance_m": 60.0,
+    "voices": [
+      {
+        "objectName": "SFX_Bell_01",
+        "gameObjectID": 1001,
+        "isVirtual": false,
+        "pipelineID": 121
+      }
+    ],
+    "contributions": [
+      {
+        "return": {
+          "LPF": 0.0,
+          "DSF": 0.0,
+          "HPF": 0.0,
+          "objects": [
+            {
+              "name": "Main Audio Bus",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            },
+            {
+              "name": "ChinjuForest",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            },
+            {
+              "name": "Bells",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [
+                {
+                  "name": "ATT_Bells",
+                  "LPF": 0.0,
+                  "DSF": 0.0,
+                  "HPF": 0.0,
+                  "children": [
+                    {
+                      "name": "Chinju_Listener",
+                      "LPF": 0.0,
+                      "DSF": 0.0,
+                      "HPF": 0.0,
+                      "children": [],
+                      "index": 0,
+                      "parameters": [
+                        {
+                          "value": -18.00025749206543,
+                          "propertyType": "OutputBusVolume",
+                          "reason": "AttenuationDistance",
+                          "driverValue": 60.0,
+                          "driver": "AttenuationDistance"
+                        }
+                      ],
+                      "volume": -18.00025749206543
+                    }
+                  ],
+                  "parameters": [],
+                  "volume": -18.00025749206543
+                }
+              ],
+              "parameters": [
+                {
+                  "value": -10.0,
+                  "propertyType": "Volume",
+                  "reason": "SoundBankValue",
+                  "driverValue": -10.0,
+                  "driver": "SoundBankValue"
+                }
+              ],
+              "volume": -28.00025749206543
+            },
+            {
+              "name": "SFX_Bell_01",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            }
+          ],
+          "volume": -28.00025749206543
+        }
+      }
+    ]
+  },
+  {
+    "layer": "Bells",
+    "distance_m": 120,
+    "voices": [
+      {
+        "objectName": "SFX_Bell_01",
+        "gameObjectID": 1001,
+        "isVirtual": false,
+        "pipelineID": 123
+      }
+    ],
+    "contributions": [
+      {
+        "return": {
+          "LPF": 0.0,
+          "DSF": 0.0,
+          "HPF": 0.0,
+          "objects": [
+            {
+              "name": "Main Audio Bus",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            },
+            {
+              "name": "ChinjuForest",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            },
+            {
+              "name": "Bells",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [
+                {
+                  "name": "ATT_Bells",
+                  "LPF": 0.0,
+                  "DSF": 0.0,
+                  "HPF": 0.0,
+                  "children": [
+                    {
+                      "name": "Chinju_Listener",
+                      "LPF": 0.0,
+                      "DSF": 0.0,
+                      "HPF": 0.0,
+                      "children": [],
+                      "index": 0,
+                      "parameters": [
+                        {
+                          "value": -60.0001106262207,
+                          "propertyType": "OutputBusVolume",
+                          "reason": "AttenuationDistance",
+                          "driverValue": 120.0,
+                          "driver": "AttenuationDistance"
+                        }
+                      ],
+                      "volume": -60.0001106262207
+                    }
+                  ],
+                  "parameters": [],
+                  "volume": -60.0001106262207
+                }
+              ],
+              "parameters": [
+                {
+                  "value": -10.0,
+                  "propertyType": "Volume",
+                  "reason": "SoundBankValue",
+                  "driverValue": -10.0,
+                  "driver": "SoundBankValue"
+                }
+              ],
+              "volume": -70.00010681152344
+            },
+            {
+              "name": "SFX_Bell_01",
+              "LPF": 0.0,
+              "DSF": 0.0,
+              "HPF": 0.0,
+              "children": [],
+              "parameters": [],
+              "volume": 0.0
+            }
+          ],
+          "volume": -70.00010681152344
+        }
+      }
+    ]
+  }
+]

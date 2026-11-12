@@ -1,0 +1,145 @@
+[
+  {
+    "asset": "AMB_Waterfall_Loop.wav",
+    "source": "Sources\\Selected\\AMB_Waterfall_Loop_source.wav",
+    "processing": {
+      "filters": "highpass=f=90,lowpass=f=2500",
+      "loop_seconds": 60,
+      "seam_crossfade_seconds": 0.5,
+      "rms_ceiling_dbfs": -26
+    },
+    "loop": true
+  },
+  {
+    "asset": "AMB_Insects_Loop.wav",
+    "source": "Sources\\Selected\\AMB_Insects_Loop_source.wav",
+    "processing": {
+      "filters": "highpass=f=1800,lowpass=f=9500",
+      "loop_seconds": 60,
+      "seam_crossfade_seconds": 0.5,
+      "rms_ceiling_dbfs": -31
+    },
+    "loop": true
+  },
+  {
+    "asset": "AMB_WindLeaves_Loop.wav",
+    "source": "Sources\\Selected\\AMB_WindLeaves_Loop_source.wav",
+    "processing": {
+      "filters": "highpass=f=45,lowpass=f=1100",
+      "loop_seconds": 60,
+      "seam_crossfade_seconds": 0.5,
+      "rms_ceiling_dbfs": -33,
+      "source_keep_ranges_seconds": [
+        [
+          1,
+          5.5
+        ],
+        [
+          18.5,
+          23.5
+        ]
+      ],
+      "join_crossfade_seconds": 0.25
+    },
+    "loop": true
+  },
+  {
+    "asset": "SFX_Bird_01.wav",
+    "source": "Sources\\Selected\\bird_excerpt_01.wav",
+    "processing": {
+      "source_start_seconds": 136.3,
+      "duration_seconds": 4,
+      "filters": "highpass 1600 Hz, lowpass 7500 Hz",
+      "peak_ceiling_dbfs": -10
+    },
+    "loop": false
+  },
+  {
+    "asset": "SFX_Bird_02.wav",
+    "source": "Sources\\Selected\\bird_excerpt_02.wav",
+    "processing": {
+      "source_start_seconds": 339.7,
+      "duration_seconds": 4,
+      "filters": "highpass 1600 Hz, lowpass 7500 Hz",
+      "peak_ceiling_dbfs": -10
+    },
+    "loop": false
+  },
+  {
+    "asset": "SFX_Bird_03.wav",
+    "source": "Sources\\Selected\\bird_excerpt_03.wav",
+    "processing": {
+      "source_start_seconds": 431.9,
+      "duration_seconds": 4,
+      "filters": "highpass 1600 Hz, lowpass 7500 Hz",
+      "peak_ceiling_dbfs": -10
+    },
+    "loop": false
+  },
+  {
+    "asset": "SFX_Rustle_01.wav",
+    "source": "Sources\\AI\\rustle_take01.wav",
+    "processing": {
+      "duration_seconds": 4.0,
+      "filters": "highpass=f=120,lowpass=f=10500",
+      "release_seconds": 0.18,
+      "peak_ceiling_dbfs": -9
+    },
+    "loop": false
+  },
+  {
+    "asset": "SFX_Rustle_02.wav",
+    "source": "Sources\\AI\\rustle_take02.wav",
+    "processing": {
+      "duration_seconds": 4.0,
+      "filters": "highpass=f=120,lowpass=f=10500",
+      "release_seconds": 0.18,
+      "peak_ceiling_dbfs": -9
+    },
+    "loop": false
+  },
+  {
+    "asset": "SFX_Rustle_03.wav",
+    "source": "Sources\\AI\\rustle_take03.wav",
+    "processing": {
+      "duration_seconds": 4.0,
+      "filters": "highpass=f=120,lowpass=f=10500",
+      "release_seconds": 0.18,
+      "peak_ceiling_dbfs": -9
+    },
+    "loop": false
+  },
+  {
+    "asset": "SFX_Bell_01.wav",
+    "source": "Sources\\AI\\bell_take01.wav",
+    "processing": {
+      "duration_seconds": 10.0,
+      "filters": "highpass=f=150,lowpass=f=11000",
+      "release_seconds": 1.0,
+      "peak_ceiling_dbfs": -9
+    },
+    "loop": false
+  },
+  {
+    "asset": "SFX_Bell_02.wav",
+    "source": "Sources\\AI\\bell_take02.wav",
+    "processing": {
+      "duration_seconds": 10.0,
+      "filters": "highpass=f=150,lowpass=f=11000",
+      "release_seconds": 1.0,
+      "peak_ceiling_dbfs": -9
+    },
+    "loop": false
+  },
+  {
+    "asset": "SFX_Bell_03.wav",
+    "source": "Sources\\AI\\bell_take03.wav",
+    "processing": {
+      "duration_seconds": 10.0,
+      "filters": "highpass=f=150,lowpass=f=11000",
+      "release_seconds": 1.0,
+      "peak_ceiling_dbfs": -9
+    },
+    "loop": false
+  }
+]

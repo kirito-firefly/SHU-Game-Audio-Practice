@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B525B1A9-7925-4354-A7FA-DD3E7C352147}" SchemaVersion="133">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{B525B1A9-7925-4354-A7FA-DD3E7C352147}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_WindLeaves" ID="{C4D28EAA-82A3-43B8-A586-69E27DCAF362}">
+					<ChildrenList>
+						<Action Name="" ID="{71154A0B-EB19-44C6-BDFF-1C7E4B24E87C}" ShortID="837222431">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WindLeaves" ID="{1CF52BC6-0A32-4429-AAAF-A429423B4886}" WorkUnitID="{10785EBD-0F5F-45BA-8512-1FD57B7D5701}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Waterfall" ID="{989938D7-864F-4EF8-B2CB-D8C9D968DD71}">
+					<ChildrenList>
+						<Action Name="" ID="{75E80047-65D2-420B-99BD-2D20FB68F04D}" ShortID="55723773">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Waterfall" ID="{2FA90967-232B-415D-B818-6817132337FC}" WorkUnitID="{10785EBD-0F5F-45BA-8512-1FD57B7D5701}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Insects" ID="{40A25EC7-B0D6-4DD3-87DB-E4BC0E19178C}">
+					<ChildrenList>
+						<Action Name="" ID="{95A06654-8A57-465F-BF82-9B0A9833B910}" ShortID="802337023">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Insects" ID="{9A028836-129A-46DC-98BC-9C99897CADB9}" WorkUnitID="{10785EBD-0F5F-45BA-8512-1FD57B7D5701}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Birds" ID="{15AB061F-24C1-4B8F-9A7E-322DD326902C}">
+					<ChildrenList>
+						<Action Name="" ID="{C056B662-E3EE-4157-AB30-F67287FD1C1D}" ShortID="1021220660">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Birds" ID="{31749F43-F50B-49CC-958C-EB7DFF55EE84}" WorkUnitID="{10785EBD-0F5F-45BA-8512-1FD57B7D5701}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Rustles" ID="{0E348865-1218-4723-88C0-3BE18CE040DA}">
+					<ChildrenList>
+						<Action Name="" ID="{6FB909DD-23CF-4A08-BF34-0183708CFC7E}" ShortID="832042941">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rustles" ID="{48B75EBE-F0AD-452B-A5E1-D2E8C79A6A0C}" WorkUnitID="{10785EBD-0F5F-45BA-8512-1FD57B7D5701}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Bells" ID="{5B6E4023-6C3B-479E-9F56-7860B537E77D}">
+					<ChildrenList>
+						<Action Name="" ID="{911B508D-6E9C-485B-ACED-153924670BD8}" ShortID="793865108">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bells" ID="{FF2071E0-60D8-4DFC-B774-2D933A3BF2DD}" WorkUnitID="{10785EBD-0F5F-45BA-8512-1FD57B7D5701}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ChinjuForest" ID="{331891ED-E3D5-4AFB-A251-B18F1EF50C32}">
+					<ChildrenList>
+						<Action Name="" ID="{538C67FD-7BB4-44F8-9D48-EC210D0D1504}" ShortID="664996661">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ChinjuForest" ID="{09995DBF-C1C0-43EA-85BD-1DB5B0B55BE5}" WorkUnitID="{10785EBD-0F5F-45BA-8512-1FD57B7D5701}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_ChinjuForest" ID="{B980A425-56EC-4E9E-99B3-C268A87AA0B7}">
+					<ChildrenList>
+						<Action Name="" ID="{542AEDCA-3C23-4A83-8997-B84D80E74355}" ShortID="938544505">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ChinjuForest" ID="{09995DBF-C1C0-43EA-85BD-1DB5B0B55BE5}" WorkUnitID="{10785EBD-0F5F-45BA-8512-1FD57B7D5701}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

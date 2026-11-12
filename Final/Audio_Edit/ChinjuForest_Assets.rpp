@@ -1,0 +1,173 @@
+<REAPER_PROJECT 0.1 7.85 1
+  SAMPLERATE 48000
+  TEMPO 60
+  TIMELOCKMODE 1
+  <TRACK
+    NAME "AMB_Waterfall_Loop"
+    VOLPAN 1 0 1 -1
+    <ITEM
+      POSITION 0.000000000
+      LENGTH 60.000000000
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      NAME "AMB_Waterfall_Loop.wav"
+      <SOURCE WAVE
+        FILE "../Assets/AMB_Waterfall_Loop.wav"
+      >
+    >
+  >
+  <TRACK
+    NAME "AMB_Insects_Loop"
+    VOLPAN 1 0 1 -1
+    <ITEM
+      POSITION 61.000000000
+      LENGTH 60.000000000
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      NAME "AMB_Insects_Loop.wav"
+      <SOURCE WAVE
+        FILE "../Assets/AMB_Insects_Loop.wav"
+      >
+    >
+  >
+  <TRACK
+    NAME "AMB_WindLeaves_Loop"
+    VOLPAN 1 0 1 -1
+    <ITEM
+      POSITION 122.000000000
+      LENGTH 60.000000000
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      NAME "AMB_WindLeaves_Loop.wav"
+      <SOURCE WAVE
+        FILE "../Assets/AMB_WindLeaves_Loop.wav"
+      >
+    >
+  >
+  <TRACK
+    NAME "SFX_Bird_01"
+    VOLPAN 1 0 1 -1
+    <ITEM
+      POSITION 183.000000000
+      LENGTH 4.000000000
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      NAME "SFX_Bird_01.wav"
+      <SOURCE WAVE
+        FILE "../Assets/SFX_Bird_01.wav"
+      >
+    >
+  >
+  <TRACK
+    NAME "SFX_Bird_02"
+    VOLPAN 1 0 1 -1
+    <ITEM
+      POSITION 188.000000000
+      LENGTH 4.000000000
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      NAME "SFX_Bird_02.wav"
+      <SOURCE WAVE
+        FILE "../Assets/SFX_Bird_02.wav"
+      >
+    >
+  >
+  <TRACK
+    NAME "SFX_Bird_03"
+    VOLPAN 1 0 1 -1
+    <ITEM
+      POSITION 193.000000000
+      LENGTH 4.000000000
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      NAME "SFX_Bird_03.wav"
+      <SOURCE WAVE
+        FILE "../Assets/SFX_Bird_03.wav"
+      >
+    >
+  >
+  <TRACK
+    NAME "SFX_Rustle_01"
+    VOLPAN 1 0 1 -1
+    <ITEM
+      POSITION 198.000000000
+      LENGTH 4.000000000
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      NAME "SFX_Rustle_01.wav"
+      <SOURCE WAVE
+        FILE "../Assets/SFX_Rustle_01.wav"
+      >
+    >
+  >
+  <TRACK
+    NAME "SFX_Rustle_02"
+    VOLPAN 1 0 1 -1
+    <ITEM
+      POSITION 203.000000000
+      LENGTH 4.000000000
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      NAME "SFX_Rustle_02.wav"
+      <SOURCE WAVE
+        FILE "../Assets/SFX_Rustle_02.wav"
+      >
+    >
+  >
+  <TRACK
+    NAME "SFX_Rustle_03"
+    VOLPAN 1 0 1 -1
+    <ITEM
+      POSITION 208.000000000
+      LENGTH 4.000000000
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      NAME "SFX_Rustle_03.wav"
+      <SOURCE WAVE
+        FILE "../Assets/SFX_Rustle_03.wav"
+      >
+    >
+  >
+  <TRACK
+    NAME "SFX_Bell_01"
+    VOLPAN 1 0 1 -1
+    <ITEM
+      POSITION 213.000000000
+      LENGTH 10.000000000
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      NAME "SFX_Bell_01.wav"
+      <SOURCE WAVE
+        FILE "../Assets/SFX_Bell_01.wav"
+      >
+    >
+  >
+  <TRACK
+    NAME "SFX_Bell_02"
+    VOLPAN 1 0 1 -1
+    <ITEM
+      POSITION 224.000000000
+      LENGTH 10.000000000
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      NAME "SFX_Bell_02.wav"
+      <SOURCE WAVE
+        FILE "../Assets/SFX_Bell_02.wav"
+      >
+    >
+  >
+  <TRACK
+    NAME "SFX_Bell_03"
+    VOLPAN 1 0 1 -1
+    <ITEM
+      POSITION 235.000000000
+      LENGTH 10.000000000
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      NAME "SFX_Bell_03.wav"
+      <SOURCE WAVE
+        FILE "../Assets/SFX_Bell_03.wav"
+      >
+    >
+  >
+>

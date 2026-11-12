@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<WwiseDocument Type="WorkUnit" ID="{25EC8042-95F5-4A89-BB93-3A06E58B1703}" SchemaVersion="133">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{25EC8042-95F5-4A89-BB93-3A06E58B1703}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="ChinjuForest_Test" ID="{CEF1D84B-5E01-4CC4-A5BC-C2182FA6EE1D}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="WindLeaves" ID="{1CF52BC6-0A32-4429-AAAF-A429423B4886}" WorkUnitID="{10785EBD-0F5F-45BA-8512-1FD57B7D5701}" />
+							<Position X="0" Y="0" />
+						</Module>
+						<Module>
+							<ObjectRef Name="Waterfall" ID="{2FA90967-232B-415D-B818-6817132337FC}" WorkUnitID="{10785EBD-0F5F-45BA-8512-1FD57B7D5701}" />
+							<Position X="1" Y="0" />
+						</Module>
+						<Module>
+							<ObjectRef Name="Insects" ID="{9A028836-129A-46DC-98BC-9C99897CADB9}" WorkUnitID="{10785EBD-0F5F-45BA-8512-1FD57B7D5701}" />
+							<Position X="2" Y="0" />
+						</Module>
+						<Module>
+							<ObjectRef Name="Birds" ID="{31749F43-F50B-49CC-958C-EB7DFF55EE84}" WorkUnitID="{10785EBD-0F5F-45BA-8512-1FD57B7D5701}" />
+							<Position X="0" Y="1" />
+						</Module>
+						<Module>
+							<ObjectRef Name="Rustles" ID="{48B75EBE-F0AD-452B-A5E1-D2E8C79A6A0C}" WorkUnitID="{10785EBD-0F5F-45BA-8512-1FD57B7D5701}" />
+							<Position X="1" Y="1" />
+						</Module>
+						<Module>
+							<ObjectRef Name="Bells" ID="{FF2071E0-60D8-4DFC-B774-2D933A3BF2DD}" WorkUnitID="{10785EBD-0F5F-45BA-8512-1FD57B7D5701}" />
+							<Position X="2" Y="1" />
+						</Module>
+					</ModuleList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

@@ -1,0 +1,62 @@
+[
+  {
+    "sound": "AMB_WindLeaves_Loop",
+    "source_count": 1,
+    "duplicates_removed": 1
+  },
+  {
+    "sound": "AMB_Waterfall_Loop",
+    "source_count": 1,
+    "duplicates_removed": 0
+  },
+  {
+    "sound": "AMB_Insects_Loop",
+    "source_count": 1,
+    "duplicates_removed": 0
+  },
+  {
+    "sound": "SFX_Bird_01",
+    "source_count": 1,
+    "duplicates_removed": 0
+  },
+  {
+    "sound": "SFX_Bird_02",
+    "source_count": 1,
+    "duplicates_removed": 0
+  },
+  {
+    "sound": "SFX_Bird_03",
+    "source_count": 1,
+    "duplicates_removed": 0
+  },
+  {
+    "sound": "SFX_Rustle_01",
+    "source_count": 1,
+    "duplicates_removed": 0
+  },
+  {
+    "sound": "SFX_Rustle_02",
+    "source_count": 1,
+    "duplicates_removed": 0
+  },
+  {
+    "sound": "SFX_Rustle_03",
+    "source_count": 1,
+    "duplicates_removed": 0
+  },
+  {
+    "sound": "SFX_Bell_01",
+    "source_count": 1,
+    "duplicates_removed": 0
+  },
+  {
+    "sound": "SFX_Bell_02",
+    "source_count": 1,
+    "duplicates_removed": 0
+  },
+  {
+    "sound": "SFX_Bell_03",
+    "source_count": 1,
+    "duplicates_removed": 0
+  }
+]

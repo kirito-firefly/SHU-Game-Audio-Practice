@@ -20,10 +20,28 @@
 
 [查看 Task 调研报告](./Task/AIGC_Game_Audio_Research.md)
 
-## Repository Structure
+## Final
+
+**镇守之森环境声音设计**。
+
+十二个正式声音资产、REAPER 工程、Wwise 工程、九十秒试听、期末报告和测试记录均位于 [Final](./Final/README.md)。
+
+[期末报告 PDF](./Final/Report/ChinjuForest_Final_Report.pdf) · [完整作品说明](./Final/DESIGN.md) · [混音试听 WAV](./Final/Preview/ChinjuForest_90s.wav) · [素材来源与授权](./Final/SOURCES.md)
+
+## 文件结构
 
 ```text
 SHU-Game-Audio-Practice
 ├─ README.md
-└─ Task
-   └─ AIGC_Game_Audio_Research.md
+├─ Task
+│  └─ AIGC_Game_Audio_Research.md
+└─ Final
+   ├─ Assets
+   ├─ Audio_Edit
+   ├─ ChinjuForest_Ambience
+   ├─ Sources
+   ├─ Preview
+   ├─ Evidence
+   ├─ Tools
+   └─ Report
+```

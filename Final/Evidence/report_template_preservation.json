@@ -1,0 +1,15 @@
+{
+  "source_sha256": "e2ddc8e2b713663acd8929331f1fcaeac6c2111781567709ad0dba8839c63e30",
+  "changed_parts": [
+    "[Content_Types].xml",
+    "word/document.xml",
+    "word/_rels/document.xml.rels"
+  ],
+  "added_media_parts": 6,
+  "added_footer_parts": 1,
+  "preserve_only_parts_identical": true,
+  "research_body_embedded": true,
+  "final_design_body_embedded": true,
+  "image_count": 6,
+  "hyperlink_count": 21
+}

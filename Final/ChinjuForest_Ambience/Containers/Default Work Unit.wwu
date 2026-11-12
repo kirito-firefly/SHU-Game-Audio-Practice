@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{10785EBD-0F5F-45BA-8512-1FD57B7D5701}" SchemaVersion="133">
+	<Containers>
+		<WorkUnit Name="Default Work Unit" ID="{10785EBD-0F5F-45BA-8512-1FD57B7D5701}" PersistMode="Standalone">
+			<ChildrenList>
+				<BlendContainer Name="ChinjuForest" ID="{09995DBF-C1C0-43EA-85BD-1DB5B0B55BE5}" ShortID="290053094">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6861685F-7753-4981-B078-FAB8CA588CF2}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F0DA773A-BE40-4F8F-81BD-A8D9344A6D10}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="WindLeaves" ID="{1CF52BC6-0A32-4429-AAAF-A429423B4886}" ShortID="422049488">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-0.5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6861685F-7753-4981-B078-FAB8CA588CF2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F0DA773A-BE40-4F8F-81BD-A8D9344A6D10}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="AMB_WindLeaves_Loop" ID="{8A799DB4-B00F-4A40-9828-91EADDA1424B}" ShortID="1073506264">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6861685F-7753-4981-B078-FAB8CA588CF2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F0DA773A-BE40-4F8F-81BD-A8D9344A6D10}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Source" ID="{55D54F82-EE4C-4FD3-B49B-FE7DBD441096}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_WindLeaves_Loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="61197835"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Source" ID="{55D54F82-EE4C-4FD3-B49B-FE7DBD441096}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="Waterfall" ID="{2FA90967-232B-415D-B818-6817132337FC}" ShortID="68073166">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_Waterfall" ID="{61EBE03A-5E6E-4117-BB26-CD5DDE39061A}" WorkUnitID="{04DD0176-887C-440D-8798-73A3B18EAAD4}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6861685F-7753-4981-B078-FAB8CA588CF2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F0DA773A-BE40-4F8F-81BD-A8D9344A6D10}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="AMB_Waterfall_Loop" ID="{5C49A089-366C-4A80-AD64-86C43B761510}" ShortID="915596858">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6861685F-7753-4981-B078-FAB8CA588CF2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F0DA773A-BE40-4F8F-81BD-A8D9344A6D10}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Source" ID="{7133689B-B04C-4A92-AF96-7CBB2CFEF7B5}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Waterfall_Loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="817190966"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Source" ID="{7133689B-B04C-4A92-AF96-7CBB2CFEF7B5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="Insects" ID="{9A028836-129A-46DC-98BC-9C99897CADB9}" ShortID="861737153">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6861685F-7753-4981-B078-FAB8CA588CF2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F0DA773A-BE40-4F8F-81BD-A8D9344A6D10}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="AMB_Insects_Loop" ID="{71189301-4856-4F9A-8119-26949B00774E}" ShortID="548169170">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6861685F-7753-4981-B078-FAB8CA588CF2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F0DA773A-BE40-4F8F-81BD-A8D9344A6D10}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Source" ID="{4B276C65-BFA9-4AAD-9B7F-3EFC01174798}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Insects_Loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="430491697"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Source" ID="{4B276C65-BFA9-4AAD-9B7F-3EFC01174798}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<RandomSequenceContainer Name="Birds" ID="{31749F43-F50B-49CC-958C-EB7DFF55EE84}" ShortID="611970922">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>11.5</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{B3F0E8B8-DC84-4AB1-B266-1DF2C4FD2190}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="3.5"/>
+													<Property Name="Min" Type="Real64" Value="-3.5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="18.5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{4C858EAB-4851-4955-9F19-05C2DC99A882}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="6.5"/>
+													<Property Name="Min" Type="Real64" Value="-6.5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_Birds" ID="{EB89F936-51F8-49A7-BAB1-D10B7FCCC0C0}" WorkUnitID="{04DD0176-887C-440D-8798-73A3B18EAAD4}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6861685F-7753-4981-B078-FAB8CA588CF2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F0DA773A-BE40-4F8F-81BD-A8D9344A6D10}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_Bird_01" ID="{5CFF0918-F90F-472C-A0DE-83C33FEE8F9A}" ShortID="161416479">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6861685F-7753-4981-B078-FAB8CA588CF2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F0DA773A-BE40-4F8F-81BD-A8D9344A6D10}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Source" ID="{1F3EAB03-03D5-4DD4-ABA6-0EDF274C39F5}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Bird_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1071956630"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Source" ID="{1F3EAB03-03D5-4DD4-ABA6-0EDF274C39F5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Bird_02" ID="{72D6D025-DBFD-47EB-A862-2B9222840547}" ShortID="203676845">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6861685F-7753-4981-B078-FAB8CA588CF2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F0DA773A-BE40-4F8F-81BD-A8D9344A6D10}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Source" ID="{E6AD8618-B694-4DB7-9C0A-9A6510954B17}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Bird_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="35279485"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Source" ID="{E6AD8618-B694-4DB7-9C0A-9A6510954B17}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Bird_03" ID="{AB488CF0-B780-4A90-BF90-20C6105206BD}" ShortID="682299087">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6861685F-7753-4981-B078-FAB8CA588CF2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F0DA773A-BE40-4F8F-81BD-A8D9344A6D10}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Source" ID="{85BA54A3-33A3-47A8-B61C-C88BDBFF12BD}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Bird_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="979161555"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Source" ID="{85BA54A3-33A3-47A8-B61C-C88BDBFF12BD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Rustles" ID="{48B75EBE-F0AD-452B-A5E1-D2E8C79A6A0C}" ShortID="312030186">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{D6CAE726-8B6D-4C69-8599-E20FD875E0E6}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="5"/>
+													<Property Name="Min" Type="Real64" Value="-5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="26.5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{938FBB09-DD77-4162-B88A-0A5958D5040C}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="8.5"/>
+													<Property Name="Min" Type="Real64" Value="-8.5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_Rustles" ID="{89A65E57-C8AE-40BC-B185-03C410E4C23F}" WorkUnitID="{04DD0176-887C-440D-8798-73A3B18EAAD4}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6861685F-7753-4981-B078-FAB8CA588CF2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F0DA773A-BE40-4F8F-81BD-A8D9344A6D10}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_Rustle_01" ID="{056F3C90-F414-4CF7-A14B-DBEC233A93B0}" ShortID="1000477546">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6861685F-7753-4981-B078-FAB8CA588CF2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F0DA773A-BE40-4F8F-81BD-A8D9344A6D10}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Source" ID="{67636EA9-18A5-4E3D-865F-A23F70175C9C}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Rustle_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="673975545"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Source" ID="{67636EA9-18A5-4E3D-865F-A23F70175C9C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Rustle_02" ID="{22FBB6C0-A9D4-4107-8469-5C2274222B28}" ShortID="405316032">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6861685F-7753-4981-B078-FAB8CA588CF2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F0DA773A-BE40-4F8F-81BD-A8D9344A6D10}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Source" ID="{699CF190-3519-4900-8DEA-316EB12FDCDB}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Rustle_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="840610130"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Source" ID="{699CF190-3519-4900-8DEA-316EB12FDCDB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Rustle_03" ID="{8B07A88C-20C0-4310-94D6-2453ABDEF537}" ShortID="391933595">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6861685F-7753-4981-B078-FAB8CA588CF2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F0DA773A-BE40-4F8F-81BD-A8D9344A6D10}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Source" ID="{8B22ACE4-39C5-44F0-BF4B-0060D5612F2D}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Rustle_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="659522151"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Source" ID="{8B22ACE4-39C5-44F0-BF4B-0060D5612F2D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Bells" ID="{FF2071E0-60D8-4DFC-B774-2D933A3BF2DD}" ShortID="85040779">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>40</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{8743ADF1-FC48-4BEC-82EE-6CCEC29DBDE2}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="10"/>
+													<Property Name="Min" Type="Real64" Value="-10"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="62.5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{A97A02AC-3BEE-4A38-9942-1BF46071FE9D}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="17.5"/>
+													<Property Name="Min" Type="Real64" Value="-17.5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_Bells" ID="{82E5DC71-412A-4749-A346-498D9581B351}" WorkUnitID="{04DD0176-887C-440D-8798-73A3B18EAAD4}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6861685F-7753-4981-B078-FAB8CA588CF2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F0DA773A-BE40-4F8F-81BD-A8D9344A6D10}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_Bell_01" ID="{D9434BF8-D184-4D16-896E-4D33258978C7}" ShortID="601020005">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6861685F-7753-4981-B078-FAB8CA588CF2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F0DA773A-BE40-4F8F-81BD-A8D9344A6D10}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Source" ID="{16EDFD59-57B4-4421-BE83-6260505B34EF}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Bell_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="723636518"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Source" ID="{16EDFD59-57B4-4421-BE83-6260505B34EF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Bell_02" ID="{56C5CE7D-08E4-405F-AF93-3529190C7641}" ShortID="515013364">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6861685F-7753-4981-B078-FAB8CA588CF2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F0DA773A-BE40-4F8F-81BD-A8D9344A6D10}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Source" ID="{62FD9C09-3B12-4202-AB08-70E28C3864BA}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Bell_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="861823878"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Source" ID="{62FD9C09-3B12-4202-AB08-70E28C3864BA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Bell_03" ID="{6DC3B0B0-FB17-413C-A7A2-99B6FB24B7C9}" ShortID="158877488">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6861685F-7753-4981-B078-FAB8CA588CF2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F0DA773A-BE40-4F8F-81BD-A8D9344A6D10}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Source" ID="{E030B31F-0B32-4C4A-8E96-178660AFA358}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Bell_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="299596897"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Source" ID="{E030B31F-0B32-4C4A-8E96-178660AFA358}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</BlendContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</Containers>
+</WwiseDocument>

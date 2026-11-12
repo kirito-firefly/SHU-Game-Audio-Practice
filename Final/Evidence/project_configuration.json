@@ -1,0 +1,90 @@
+{
+  "wwise": {
+    "displayName": "v2025.1.11",
+    "year": 2025,
+    "schema": 133,
+    "build": 9262,
+    "minor": 11,
+    "major": 1,
+    "nickname": ""
+  },
+  "layers": {
+    "WindLeaves": {
+      "id": "{1CF52BC6-0A32-4429-AAAF-A429423B4886}",
+      "files": [
+        "AMB_WindLeaves_Loop"
+      ],
+      "volume": -0.5
+    },
+    "Waterfall": {
+      "id": "{2FA90967-232B-415D-B818-6817132337FC}",
+      "files": [
+        "AMB_Waterfall_Loop"
+      ],
+      "volume": -7,
+      "distance": 160
+    },
+    "Insects": {
+      "id": "{9A028836-129A-46DC-98BC-9C99897CADB9}",
+      "files": [
+        "AMB_Insects_Loop"
+      ],
+      "volume": -3
+    },
+    "Birds": {
+      "id": "{31749F43-F50B-49CC-958C-EB7DFF55EE84}",
+      "files": [
+        "SFX_Bird_01",
+        "SFX_Bird_02",
+        "SFX_Bird_03"
+      ],
+      "volume": -12,
+      "distance": 60,
+      "delay": [
+        12,
+        25
+      ],
+      "initial": [
+        8,
+        15
+      ]
+    },
+    "Rustles": {
+      "id": "{48B75EBE-F0AD-452B-A5E1-D2E8C79A6A0C}",
+      "files": [
+        "SFX_Rustle_01",
+        "SFX_Rustle_02",
+        "SFX_Rustle_03"
+      ],
+      "volume": -9,
+      "distance": 15,
+      "delay": [
+        18,
+        35
+      ],
+      "initial": [
+        15,
+        25
+      ]
+    },
+    "Bells": {
+      "id": "{FF2071E0-60D8-4DFC-B774-2D933A3BF2DD}",
+      "files": [
+        "SFX_Bell_01",
+        "SFX_Bell_02",
+        "SFX_Bell_03"
+      ],
+      "volume": -10,
+      "distance": 120,
+      "delay": [
+        45,
+        80
+      ],
+      "initial": [
+        30,
+        50
+      ]
+    }
+  },
+  "soundcaster": "{CEF1D84B-5E01-4CC4-A5BC-C2182FA6EE1D}"
+}

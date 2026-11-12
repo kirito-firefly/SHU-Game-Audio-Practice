@@ -1,6 +1,7 @@
 # Text-to-SFX 在游戏音效设计中的应用调研
 
-> 调研时间：2026 年 10 月
+> 调研时间：2026 年 10 月；资料复核：2026 年 11 月 12 日。
+> 本文为资料调研。除期末作品实际使用的 Stable Audio 外，其他工具的能力来自官方说明，未做同条件音质对比测试。
 
 ## 1. 从“找音效”到“生成音效”
 
@@ -30,7 +31,7 @@ Text-to-SFX 提供了第四种方式：
 
 ### ElevenLabs Sound Effects V2：实用型 Text-to-SFX
 
-ElevenLabs 目前的 Sound Effects V2 已经非常接近一个实际生产工具。
+ElevenLabs 的 Sound Effects V2 已经提供了较完整的文字音效生成流程。
 
 它可以控制：
 
@@ -50,10 +51,12 @@ ElevenLabs 目前的 Sound Effects V2 已经非常接近一个实际生产工具
 
 工作流。
 
+11 月 12 日复核时，官方已于 10 月 29 日发布 SFX v3。官方介绍其改进了多指令提示词的遵循和部分高频声音的自然度；这些是厂商说明，不能直接当作本次作业的实测排名。当前文档也将 V2 标为弃用，计划于 2027 年 3 月 1 日移除。因此，V2 适合作为原调研中的工作流案例，后续选型应同时核对 V3、接口与条款。[1][2]
+
 
 ### Adobe Firefly：从 Text-to-SFX 转向“表演控制”
 
-2026 年 Adobe Firefly 的 Generate Sound Effects 已经全面开放。
+Adobe Firefly 的官方网页和移动端文档已经介绍了 Generate Sound Effects 的使用流程。[3][4]
 
 它比较特别的地方是 **Voice to Sound Effects**。
 
@@ -82,7 +85,7 @@ Stability AI 在 2026 年推出 Stable Audio 3.0。
 - Continuation
 - 对已有音频进行局部修改
 
-更重要的是，2026 年 8 月 Stable Audio 已经推出 DAW 插件。
+Stable Audio 也提供了 DAW 插件。需要注意，官方插件指南列出的首发平台是 macOS VST 与 AU；Windows 支持仍列在后续更新中。因此，本次 Windows 电脑采用网页生成，再导入 REAPER，没有使用该插件。[5][6]
 
 这意味着生成式 AI 不再只是：
 
@@ -219,8 +222,27 @@ AI 可以制作脚步素材，但不能自动代替整个游戏音频系统。
 
 ## 参考资料
 
-1. ElevenLabs Documentation — Sound Effects / Text to Sound Effects V2
-2. Adobe Firefly — Generate Sound Effects / Voice to Sound Effects，2026
-3. Stability AI — Stable Audio 3.0，2026
-4. Stability AI — Stable Audio 3.0 DAW Plugin，2026
-5. ByteDance Seed — Seed Audio 1.0，2026
+以下均为官方资料，访问与复核日期为 2026 年 11 月 12 日。
+
+1. ElevenLabs，Sound effects 文档：
+   https://elevenlabs.io/docs/overview/capabilities/sound-effects
+2. ElevenLabs，Introducing SFX v3 in ElevenCreative and ElevenAPI，2026-10-29：
+   https://elevenlabs.io/blog/sound-effects-v3
+3. Adobe，Generate sound effects using text prompts：
+   https://helpx.adobe.com/firefly/web/work-with-audio-and-video/work-with-audio/text-to-sound-effects.html
+4. Adobe，Generate sound effects using your voice as a guide：
+   https://helpx.adobe.com/firefly/mobile/work-with-audio-and-video/work-with-audio/generate-sound-effects-using-your-voice-as-a-guide.html
+5. Stability AI，Stable Audio 3 Prompt Guide：
+   https://kb.stability.ai/knowledge-base/stable-audio-3-prompt-guide
+6. Stability AI，Stable Audio DAW Plugin Guide：
+   https://kb.stability.ai/knowledge-base/stable-audio-daw-plugin-guide
+7. ByteDance Seed，From Speech to Audio Creation Introducing the Seed Audio 1.0 Audio Creation Model，2026-07-20：
+   https://seed.bytedance.com/en/blog/from-speech-to-audio-creation-introducing-the-seed-audio-1-0-audio-creation-model
+
+## 6. 与本次期末作品的联系
+
+镇守之森的制作采用“AI 生成部分音效 + CC0 自然录音 + 后期处理 + Wwise 调度”的混合流程。风声、草丛和铃音通过 Stable Audio 官方网页生成，流水、虫鸣和鸟鸣来自 CC0 素材。第一次生成的风声听起来接近雨声，重新生成后仍需要选段、滤波和降低音量，才接近哀怨轻柔的目标。
+
+这次实践让我更明确地看到，模型输出只是素材起点。最终能否用于游戏，还要看循环是否平顺、文件规格是否统一、随机声是否过密，以及声源位置变化后音量是否合理。工具版本较新并不等于无需筛选，也不能代替真实试听和中间件测试。完整作品、来源和测试记录：
+
+https://github.com/kirito-firefly/SHU-Game-Audio-Practice/tree/main/Final

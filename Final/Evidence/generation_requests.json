@@ -1,0 +1,14 @@
+[
+  {
+    "kind": "rustle",
+    "request": "EXACT REQUEST\nprompt\nSound effect only. One brief soft rustle of dry grass and small shrub leaves brushed gently by a small unseen animal passing close by, delicate irregular papery friction, intimate detailed natural foley, short quiet movement then stillness. No footsteps, no voices, no music, no melody, no heavy wind, no dramatic swoosh, one-shot.\nduration_per_stem\n4\ntakes\n3\nseed\nrandom\nmodel\ndefault (Stable Audio 3)\nsteps\nauto\ncfg_scale\nauto\nquality_preset\nstandard\noutput_format\nwav\nkey\ntime_signature\n4/4"
+  },
+  {
+    "kind": "bell",
+    "request": "EXACT REQUEST\nprompt\nSound effect. One isolated soft strike of a small aged Japanese bronze shrine bell, delicate muted metallic attack, a long pure cooling resonance fading naturally into silence, wistful and restrained, subtle outdoor air. Single bell hit near the start. No repeated ringing, no jingle, no melody, no music, no voices, one-shot.\nduration_per_stem\n10\ntakes\n3\nseed\nrandom\nmodel\ndefault (Stable Audio 3)\nsteps\nauto\ncfg_scale\nauto\nquality_preset\nstandard\noutput_format\nwav\nkey\ntime_signature\n4/4"
+  },
+  {
+    "kind": "wind_adopted",
+    "request": "EXACT REQUEST\nprompt\nSound effect only: extremely gentle, barely audible soft low airy wind inside a sheltered quiet forest. Slow smooth breathing of air, warm low-mid whisper, almost still, with only an occasional faint rub of a few dry broad leaves. Spacious silence between tiny leaf movements. No rain, no water, no continuous sizzling, no dense rustling, no white noise, no storm, no music, no birds, no voices, loop.\nduration_per_stem\n30\ntakes\n2\nseed\nrandom\nmodel\ndefault (Stable Audio 3)\nsteps\nauto\ncfg_scale\nauto\nquality_preset\nstandard\noutput_format\nwav\nkey\ntime_signature\n4/4"
+  }
+]
